@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.ContextMenu?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane maxHeight="559.0" maxWidth="997.0" minHeight="559.0" minWidth="997.0" prefHeight="559.0" prefWidth="997.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.mainWindow.MainController">
+   <children>
+   <SplitPane dividerPositions="0.2271356783919598" maxHeight="529.0" maxWidth="997.0" minHeight="529.0" minWidth="997.0" prefHeight="529.0" prefWidth="997.0" GridPane.rowIndex="1">
+   <items>
+       <ListView fx:id="subjectsListView" maxHeight="527.0" maxWidth="390.0" minHeight="527.0" minWidth="390.0" prefHeight="527.0" prefWidth="390.0">
+               <contextMenu>
+                  <ContextMenu fx:id="contextMenu">
+                    <items>
+                      <MenuItem fx:id="menuItemAdd" mnemonicParsing="false" onAction="#addClick" text="Добавить" />
+                        <MenuItem fx:id="menuItemEdit" mnemonicParsing="false" onAction="#editClick" text="Редактировать" />
+                        <MenuItem fx:id="menuItemDelete" mnemonicParsing="false" onAction="#deleteClick" text="Удалить" />
+                    </items>
+                  </ContextMenu>
+               </contextMenu>
+            </ListView>
+       <ScrollPane maxHeight="527.0" maxWidth="600.0" minHeight="527.0" minWidth="600.0" prefHeight="527.0" prefWidth="600.0">
+           <content>
+               <AnchorPane maxHeight="527.0" maxWidth="1200.0" minHeight="527.0" minWidth="1200.0" prefHeight="527.0" prefWidth="1200.0">
+                   <children>
+                       <TableView maxHeight="527.0" maxWidth="1200.0" minHeight="527.0" minWidth="1200.0" prefHeight="527.0" prefWidth="1200.0" AnchorPane.bottomAnchor="-9.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <columns>
+                               <TableColumn editable="false" maxWidth="75.0" minWidth="75.0" prefWidth="75.0" sortable="false" text="1" />
+                               <TableColumn editable="false" maxWidth="75.0" minWidth="75.0" prefWidth="75.0" sortable="false" text="2" />
+                               <TableColumn editable="false" maxWidth="75.0" minWidth="75.0" prefWidth="75.0" sortable="false" text="3" />
+                               <TableColumn editable="false" maxWidth="75.0" minWidth="75.0" prefWidth="75.0" sortable="false" text="4" />
+                               <TableColumn editable="false" maxWidth="75.0" minWidth="75.0" prefWidth="75.0" sortable="false" text="5" />
+                               <TableColumn editable="false" maxWidth="75.0" minWidth="75.0" prefWidth="75.0" sortable="false" text="6" />
+                               <TableColumn editable="false" maxWidth="75.0" minWidth="75.0" prefWidth="75.0" sortable="false" text="7" />
+                               <TableColumn editable="false" maxWidth="75.0" minWidth="75.0" prefWidth="75.0" sortable="false" text="8" />
+                              <TableColumn maxWidth="75.0" minWidth="75.0" prefWidth="75.0" text="9" />
+                              <TableColumn maxWidth="75.0" minWidth="75.0" prefWidth="75.0" text="10" />
+                              <TableColumn maxWidth="75.0" minWidth="75.0" prefWidth="75.0" text="11" />
+                              <TableColumn maxWidth="75.0" minWidth="75.0" prefWidth="75.0" text="12" />
+                              <TableColumn maxWidth="75.0" minWidth="75.0" prefWidth="75.0" text="13" />
+                              <TableColumn maxWidth="75.0" minWidth="75.0" prefWidth="75.0" text="14" />
+                              <TableColumn maxWidth="75.0" minWidth="75.0" prefWidth="75.0" text="15" />
+                              <TableColumn maxWidth="75.0" minWidth="75.0" prefWidth="75.0" text="16" />
+                           </columns>
+                       </TableView>
+                   </children>
+               </AnchorPane>
+           </content>
+       </ScrollPane>
+   </items>
+   </SplitPane>
+      <MenuBar>
+        <menus>
+          <Menu mnemonicParsing="false" text="Файл">
+            <items>
+                  <MenuItem fx:id="loadMenuItem" mnemonicParsing="false" text="Загрузить" />
+              <MenuItem fx:id="saveMenuItem" mnemonicParsing="false" text="Сохранить" />
+                  <MenuItem fx:id="exportMenuItem" mnemonicParsing="false" text="Экспорт в docx" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Редактировать">
+            <items>
+              <MenuItem fx:id="clearMenuItem" mnemonicParsing="false" onAction="#clearClick" text="Очистить расписание" />
+                  <MenuItem fx:id="changeDateMenuItem" mnemonicParsing="false" onAction="#changeDateClick" text="Изменить дату начала семестра" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </children>
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints minHeight="10.0" prefHeight="30.0" />
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>
