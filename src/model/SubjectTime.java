@@ -8,6 +8,8 @@ public class SubjectTime {
     private String timePlace;
     private String numOfWeek;
 
+    public SubjectTime(){}
+
     public SubjectTime(String weekDay, String timePlace, String numOfWeek) {
         this.weekDay = weekDay;
         this.timePlace = timePlace;

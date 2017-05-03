@@ -41,5 +41,6 @@ public class addSub extends Application{
         try {
             thisStage.close();
         }catch(Exception e){}
+        aSmainController.updateTable();
     }
 }

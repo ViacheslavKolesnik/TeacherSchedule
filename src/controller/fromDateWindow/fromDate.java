@@ -29,6 +29,7 @@ public class fromDate extends Application {
         newStage.setResizable(false);
         newStage.show();
     }
+
     public static void closeFromWindow(){
         try {
             thisStage.close();

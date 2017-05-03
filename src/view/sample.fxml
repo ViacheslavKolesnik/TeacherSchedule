@@ -36,24 +36,24 @@
            <content>
                <AnchorPane maxHeight="527.0" maxWidth="1200.0" minHeight="527.0" minWidth="1200.0" prefHeight="527.0" prefWidth="1200.0">
                    <children>
-                       <TableView maxHeight="527.0" maxWidth="1200.0" minHeight="527.0" minWidth="1200.0" prefHeight="527.0" prefWidth="1200.0" AnchorPane.bottomAnchor="-9.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                       <TableView fx:id="mainTable" maxHeight="527.0" maxWidth="1200.0" minHeight="527.0" minWidth="1200.0" prefHeight="527.0" prefWidth="1200.0" AnchorPane.bottomAnchor="-9.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                            <columns>
-                               <TableColumn editable="false" maxWidth="75.0" minWidth="75.0" prefWidth="75.0" sortable="false" text="1" />
-                               <TableColumn editable="false" maxWidth="75.0" minWidth="75.0" prefWidth="75.0" sortable="false" text="2" />
-                               <TableColumn editable="false" maxWidth="75.0" minWidth="75.0" prefWidth="75.0" sortable="false" text="3" />
-                               <TableColumn editable="false" maxWidth="75.0" minWidth="75.0" prefWidth="75.0" sortable="false" text="4" />
-                               <TableColumn editable="false" maxWidth="75.0" minWidth="75.0" prefWidth="75.0" sortable="false" text="5" />
-                               <TableColumn editable="false" maxWidth="75.0" minWidth="75.0" prefWidth="75.0" sortable="false" text="6" />
-                               <TableColumn editable="false" maxWidth="75.0" minWidth="75.0" prefWidth="75.0" sortable="false" text="7" />
-                               <TableColumn editable="false" maxWidth="75.0" minWidth="75.0" prefWidth="75.0" sortable="false" text="8" />
-                              <TableColumn maxWidth="75.0" minWidth="75.0" prefWidth="75.0" text="9" />
-                              <TableColumn maxWidth="75.0" minWidth="75.0" prefWidth="75.0" text="10" />
-                              <TableColumn maxWidth="75.0" minWidth="75.0" prefWidth="75.0" text="11" />
-                              <TableColumn maxWidth="75.0" minWidth="75.0" prefWidth="75.0" text="12" />
-                              <TableColumn maxWidth="75.0" minWidth="75.0" prefWidth="75.0" text="13" />
-                              <TableColumn maxWidth="75.0" minWidth="75.0" prefWidth="75.0" text="14" />
-                              <TableColumn maxWidth="75.0" minWidth="75.0" prefWidth="75.0" text="15" />
-                              <TableColumn maxWidth="75.0" minWidth="75.0" prefWidth="75.0" text="16" />
+                               <TableColumn fx:id="ColumnWeek1" editable="false" maxWidth="75.0"  minWidth="75.0" prefWidth="75.0" sortable="false" text="1" />
+                               <TableColumn fx:id="ColumnWeek2" editable="false" maxWidth="75.0" minWidth="75.0" prefWidth="75.0" sortable="false" text="2" />
+                               <TableColumn fx:id="ColumnWeek3" editable="false" maxWidth="75.0" minWidth="75.0" prefWidth="75.0" sortable="false" text="3" />
+                               <TableColumn fx:id="ColumnWeek4" editable="false" maxWidth="75.0" minWidth="75.0" prefWidth="75.0" sortable="false" text="4" />
+                               <TableColumn fx:id="ColumnWeek5" editable="false" maxWidth="75.0" minWidth="75.0" prefWidth="75.0" sortable="false" text="5" />
+                               <TableColumn editable="false" fx:id="ColumnWeek6" maxWidth="75.0" minWidth="75.0" prefWidth="75.0" sortable="false" text="6" />
+                               <TableColumn fx:id="ColumnWeek7" editable="false" maxWidth="75.0" minWidth="75.0" prefWidth="75.0" sortable="false" text="7" />
+                               <TableColumn fx:id="ColumnWeek8" editable="false" maxWidth="75.0" minWidth="75.0" prefWidth="75.0" sortable="false" text="8" />
+                              <TableColumn fx:id="ColumnWeek9" maxWidth="75.0" minWidth="75.0" prefWidth="75.0" text="9" />
+                              <TableColumn fx:id="ColumnWeek10" maxWidth="75.0" minWidth="75.0" prefWidth="75.0" text="10" />
+                              <TableColumn fx:id="ColumnWeek11" maxWidth="75.0" minWidth="75.0" prefWidth="75.0" text="11" />
+                              <TableColumn fx:id="ColumnWeek12" maxWidth="75.0" minWidth="75.0" prefWidth="75.0" text="12" />
+                              <TableColumn fx:id="ColumnWeek13" maxWidth="75.0" minWidth="75.0" prefWidth="75.0" text="13" />
+                              <TableColumn fx:id="ColumnWeek14" maxWidth="75.0" minWidth="75.0" prefWidth="75.0" text="14" />
+                              <TableColumn fx:id="ColumnWeek15" maxWidth="75.0" minWidth="75.0" prefWidth="75.0" text="15" />
+                              <TableColumn fx:id="ColumnWeek16" maxWidth="75.0" minWidth="75.0" prefWidth="75.0" text="16" />
                            </columns>
                        </TableView>
                    </children>

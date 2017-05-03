@@ -122,6 +122,7 @@ public class addSubController implements Initializable{
             asCmainController.subsObsList.remove(addSub.index);
             asCmainController.subsObsList.add(addSub.index,newSub);
         }
+        System.out.println(asCmainController.subsObsList.size());
         addSub.closeAddSubWindow();
     }
 }
