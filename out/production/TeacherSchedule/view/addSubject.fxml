@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ContextMenu?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="519.0" maxWidth="495.0" minHeight="519.0" minWidth="495.0" prefHeight="519.0" prefWidth="495.0" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.addSubject.addSubController">
+   <children>
+      <TextField fx:id="addSubNameText" layoutX="155.0" layoutY="45.0" />
+      <Label layoutX="180.0" layoutY="24.0" text="Название предмета" />
+      <ListView fx:id="addDaysList" editable="true" layoutX="16.0" layoutY="116.0" maxWidth="464.0" minWidth="464.0" prefHeight="200.0" prefWidth="464.0">
+         <contextMenu>
+            <ContextMenu fx:id="dayListView">
+              <items>
+                <MenuItem fx:id="addDayListItem" mnemonicParsing="false" onAction="#addDay" text="Добавить" />
+                  <MenuItem fx:id="delDayListItem" mnemonicParsing="false" text="Удалить" />
+              </items>
+            </ContextMenu>
+         </contextMenu>
+      </ListView>
+      <Label layoutX="234.0" layoutY="95.0" text="Дни" />
+      <DatePicker fx:id="addFinalDate" layoutX="139.0" layoutY="360.0" />
+      <Label layoutX="157.0" layoutY="339.0" text="Дата окончания предмета" />
+      <Button fx:id="addSubButton" layoutX="140.0" layoutY="420.0" mnemonicParsing="false" onAction="#saveSub" prefHeight="31.0" prefWidth="218.0" text="Добавить предмет" />
+   </children>
+</AnchorPane>

@@ -216,6 +216,7 @@ public class MainController {
         ColumnWeek16.setCellValueFactory(new PropertyValueFactory<SubjectRow, String>("week16"));
         updateTable();
     }
+
     @FXML
     public void addClick(){
         if(Main.fromDate==null){
