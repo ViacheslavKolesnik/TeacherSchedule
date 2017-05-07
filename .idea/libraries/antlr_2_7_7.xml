@@ -1,0 +1,35 @@
+<component name="libraryTable">
+  <library name="antlr-2.7.7">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/DOCXjar/antlr-2.7.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/DOCXjar/antlr-runtime-3.5.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/DOCXjar/avalon-framework-api-4.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/DOCXjar/avalon-framework-impl-4.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/DOCXjar/commons-codec-1.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/DOCXjar/commons-io-2.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/DOCXjar/commons-lang3-3.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/DOCXjar/commons-logging-1.1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/DOCXjar/docx4j-3.3.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/DOCXjar/guava-19.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/DOCXjar/httpclient-4.5.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/DOCXjar/httpcore-4.4.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/DOCXjar/jackson-annotations-2.7.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/DOCXjar/jackson-core-2.7.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/DOCXjar/jackson-databind-2.7.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/DOCXjar/jaxb-svg11-1.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/DOCXjar/lorem-2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/DOCXjar/mbassador-1.2.4.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/DOCXjar/serializer-2.7.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/DOCXjar/slf4j-api-1.7.21.jar!/" />
+      <root url="jar://$PROJECT_DIR$/DOCXjar/stringtemplate-3.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/DOCXjar/wmf2svg-0.9.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/DOCXjar/xalan-2.7.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/DOCXjar/xmlgraphics-commons-2.1.jar!/" />
+      <root url="file://$PROJECT_DIR$" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/src" />
+    </SOURCES>
+  </library>
+</component>

@@ -7,6 +7,7 @@ import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import controller.addSubject.addSub;
 import controller.fromDateWindow.fromDate;
+import docx.DocxForSchedule;
 import javafx.beans.property.ReadOnlyObjectWrapper;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.value.ObservableValue;
@@ -174,6 +175,7 @@ public class MainController {
         } catch (IOException e) {
             e.printStackTrace();
         }
+        DocxForSchedule.saveTable(subsObsList,subjTable,"test1.docx");
     }
 
     public ArrayList<Subject> ArrayListFromObservableList(ObservableList<Subject> t){
